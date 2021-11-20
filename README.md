@@ -24,6 +24,10 @@ Stool 11in off the ground
 The picture script requires you to have both python and the python module `Open CV` installed
 To install opencv just run `pip install opencv-python` after installing python 3.10 from https://www.python.org/downloads/
 
+### Emptying the folders
+
+Make sure in the images folder the folders with color names are empty
+
 ### Runing the script
 
 Following the positioning stated above capture your pictures using [This Script](https://github.com/Heppcat-Programming/background-color-ai-tests/blob/main/pictures.py) to run the script while in the same folder as it run `python pictures.py` it will take a picture every 30 seconds when you are ready press `p` to start and follow the instructions in the terminal.
