@@ -1,7 +1,7 @@
 # Background Color Affect on AI
 Tests to figure out which of 4 colors used in training is best for identifying on other colors
 
-# Repeating the Process
+# Recreating the Experiment
 
 ## Positioning
 
