@@ -1,7 +1,7 @@
 # Background Color Affect on AI
 Tests to figure out which of 4 colors used in training is best for identifying on other colors
 
-# Repeating the Process
+# Recreating the Experiment
 
 ## Positioning
 
@@ -23,6 +23,10 @@ Stool 11in off the ground
 
 The picture script requires you to have both python and the python module `Open CV` installed
 To install opencv just run `pip install opencv-python` after installing python 3.10 from https://www.python.org/downloads/
+
+### Emptying the folders
+
+Make sure in the images folder the folders with color names are empty
 
 ### Runing the script
 
