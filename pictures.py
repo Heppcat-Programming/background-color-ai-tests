@@ -7,7 +7,7 @@ import uuid
 
 cap = cv2.VideoCapture(1)
 labels = ['green', 'black', 'blue', 'white']
-number_imgs = 6
+number_imgs = 15
 IMAGES_PATH = os.path.join('images')
 
 def savePictures(a):

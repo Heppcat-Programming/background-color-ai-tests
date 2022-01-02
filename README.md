@@ -5,17 +5,11 @@ Tests to figure out which of 4 colors used in training is best for identifying o
 
 ## Positioning
 
-Using the [Microsoft Studio Webcam](https://www.microsoft.com/en-us/d/lifecam-studio/91dt6wmfdlb3) Craphy Studio Softbox Lights, and a small stool positioned as followed
+Using the [Microsoft Studio Webcam](https://www.microsoft.com/en-us/d/lifecam-studio/91dt6wmfdlb3), and a Ring Light positioned as follows 
 
-Left Light 6ft off the ground
-Right Light 6ft 2in off the ground
-Lights seperated by 45.5in pole to pole
+Ring Light 29 in Above tile (Centered)
 
-Camera 29in off the ground
-
-Left edge of webcam 5in from the left edge of the tile
-
-Stool 11in off the ground
+Camera 5in to the right of the tile facing straight down
 
 ## Capturing Pictures
 
@@ -37,3 +31,11 @@ Following the positioning stated above capture your pictures using [This Script]
 First install the dependencies using `pip install pyqt5 lxml`
 
 Go to the folder named `labelimg` and run `python labelImg.py` then using the buttons on the side open the folder with the first image. Then press w and make the selection. After doing that save the image and go on to the next one. To copy the selection from image to image press `Ctrl + V`, but you have to reselect the object for each background color.
+
+
+## Training
+### Repeat Per Color
+    Create a mobilenet model with 12 of the labeled images (from that color)
+
+## Testing
+    Test the models using all of the remaining 3 images from every color 
